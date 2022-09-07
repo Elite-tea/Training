@@ -1,0 +1,10 @@
+public class program1 {
+    public static void main (String[] args) {
+        var x = 10;
+        var y = 7;
+        System.out.println("Итог:" + x*y);
+        x = 15;
+        System.out.print("Итог:" + x*y);
+
+    }
+}
