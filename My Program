@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class InfoPeople {
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Введите Имя ");
+    var name = in.nextLine();
+    System.out.print("Введите возраст ");
+    var age = in.nextInt();
+    System.out.print("Введите город ");
+    var city = in.next();
+    System.out.print("Введите рост в метрах ");
+    var rost = in.nextFloat();
+    System.out.printf("Имя: %s Возраст: %d Город: %s Рост: %.2f \n", name, age, city, rost);
+            in.close();
+    }
+}
