@@ -1,0 +1,10 @@
+public class xor {
+        public static void main(String[] args) {
+            var number = 5115; // Которое надо зашифровать - в двоичной равен 1001111111011
+            var key = 102; //Ключ шифрования - в двоичной системе будет 1100110
+            var encrypt = number ^ key; //Результатом будет число 1001110011101
+            System.out.println("Зашифрованное число: " +encrypt);
+            var decrypt = encrypt ^ key; // Результатом будет исходное число
+            System.out.println("Расшифрованное число: " + decrypt);
+        }
+}
